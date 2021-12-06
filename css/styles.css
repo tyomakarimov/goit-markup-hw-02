@@ -1,0 +1,128 @@
+:root {
+  --white-color: #ffffff;
+  --nero-color: #212121;
+  --blue-color: #2196f3;
+  --gray-color: #757575;
+  --white-smoke-color: #ececec;
+  --blue-chalk-color: #f5f4fa;
+  --black-rock-color: #2f303a;
+  --semi-transparent-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: var(--nero-color);
+}
+
+.header {
+  width: 1600px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  width: 145px;
+  height: 31px;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+.navbar-element,
+.contact-element {
+  width: 49px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+
+.logo-part,
+.active-navbar-element,
+.navbar-element:hover,
+.navbar-element:active,
+.contact:hover,
+.contact:active,
+.address .link:hover,
+.address .link:active {
+  color: var(--blue-color);
+}
+
+.contact {
+  color: var(--gray-color);
+  white-space: nowrap;
+}
+
+.separator {
+  width: 1600px;
+  height: 0px;
+  border: 1px solid var(--white-smoke-color);
+}
+
+.filter-button {
+  height: 38px;
+  background-color: var(--blue-chalk-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+}
+
+.filter-button:hover,
+.filter-button:active,
+.active-filter-button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.portfolio {
+  width: 370px;
+  height: 404px;
+  background-color: #ffffff;
+  border: 1px solid var(--white-smoke-color);
+}
+
+.portfolio .name {
+  width: 322px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio .type {
+  width: 322px;
+  height: 30px;
+  line-height: calc(30 / 16);
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: var(--black-rock-color);
+}
+
+.light-logo {
+  color: var(--white-color);
+  top: 60px;
+}
+
+.address .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--semi-transparent-white-color);
+}
+
+.address .map-link {
+  color: var(--white-color);
+}
